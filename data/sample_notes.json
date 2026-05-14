@@ -1,0 +1,5 @@
+[
+  {"id": 1, "title": "Learn MCP", "content": "The Model Context Protocol is the standard for connecting tools to LLMs."},
+  {"id": 2, "title": "Agentic patterns", "content": "The 6 foundational patterns are the basis of every agentic system."},
+  {"id": 3, "title": "LangGraph", "content": "Agent orchestration with state graphs, nodes, and edges."}
+]
