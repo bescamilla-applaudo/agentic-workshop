@@ -1,0 +1,31 @@
+[project]
+name = "agentic-workshop"
+version = "1.0.0"
+description = "Workshop: From Software Engineer to AI Engineer"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.50.0",
+    "langgraph>=0.2.0",
+    "langchain-openai>=0.3.0",
+    "langchain-community>=0.3.0",
+    "mcp>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.8.0",
+]
+search = [
+    "duckduckgo-search>=6.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
