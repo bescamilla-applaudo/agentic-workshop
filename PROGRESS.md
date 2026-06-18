@@ -5,12 +5,12 @@ Check off each exercise as you complete it.
 ---
 
 ## Phase 1 — The 6 Foundational Patterns
-- [ ] 1.1 Augmented LLM: Assistant with tools
-- [ ] 1.2 Prompt Chaining: Processing pipeline
-- [ ] 1.3 Routing: Classify and direct
-- [ ] 1.4 Parallelization: Multi-perspective analysis
-- [ ] 1.5 Orchestrator-Workers: Dynamic delegation
-- [ ] 1.6 Evaluator-Optimizer: Refinement loop
+- [x] 1.1 Augmented LLM: Assistant with tools
+- [x] 1.2 Prompt Chaining: Processing pipeline
+- [x] 1.3 Routing: Classify and direct
+- [x] 1.4 Parallelization: Multi-perspective analysis
+- [x] 1.5 Orchestrator-Workers: Dynamic delegation
+- [x] 1.6 Evaluator-Optimizer: Refinement loop
 
 ## Phase 2 — Agentic Architectures in LangGraph
 - [ ] 2.1 ReAct Agent: Researcher with tools

@@ -79,10 +79,10 @@ Reference: AGENTIC.md section 1.1
 ```
 
 **Validation:**
-- [ ] The LLM answers simple questions directly ("hello")
-- [ ] The LLM uses `search_docs` when you ask domain questions
-- [ ] The LLM uses `calculate` when you ask for a calculation
-- [ ] The script runs end-to-end without errors
+- [x] The LLM answers simple questions directly ("hello")
+- [x] The LLM uses `search_docs` when you ask domain questions
+- [x] The LLM uses `calculate` when you ask for a calculation
+- [x] The script runs end-to-end without errors
 
 **Output:** `agentlab/augmented_llm.py` → compare with `solutions/fase1/augmented_llm.py`
 
@@ -107,9 +107,9 @@ Include 2 test inputs. Reference: AGENTIC.md section 1.2
 ```
 
 **Validation:**
-- [ ] The pipeline processes real text and produces structured JSON
-- [ ] If Step 1 fails the gate (invalid JSON), the pipeline stops with a clear error
-- [ ] Uses cheap models for simple steps and a more capable one for final output
+- [x] The pipeline processes real text and produces structured JSON
+- [x] If Step 1 fails the gate (invalid JSON), the pipeline stops with a clear error
+- [x] Uses cheap models for simple steps and a more capable one for final output
 
 **Output:** `agentlab/prompt_chain.py` → compare with `solutions/fase1/prompt_chain.py`
 
@@ -134,11 +134,11 @@ Include 5 test inputs covering all 4 categories. Reference: AGENTIC.md section 1
 ```
 
 **Validation:**
-- [ ] "what time is it" → simple (fast model)
-- [ ] "explain microservices architecture" → complex (default model)
-- [ ] "design a high-availability payment system" → critical (powerful model)
-- [ ] An adversarial prompt → unsafe (rejected)
-- [ ] Total cost is optimized: doesn't use powerful model for trivial tasks
+- [x] "what time is it" → simple (fast model)
+- [x] "explain microservices architecture" → complex (default model)
+- [x] "design a high-availability payment system" → critical (powerful model)
+- [x] An adversarial prompt → unsafe (rejected)
+- [x] Total cost is optimized: doesn't use powerful model for trivial tasks
 
 **Output:** `agentlab/router.py` → compare with `solutions/fase1/router.py`
 
@@ -164,9 +164,9 @@ Reference: AGENTIC.md section 1.4
 ```
 
 **Validation:**
-- [ ] `analyze_parallel` returns all 3 dimensions in less time than sequential
-- [ ] `fact_check_vote` returns consistent verdicts with confidence score
-- [ ] You use `asyncio.gather` correctly
+- [x] `analyze_parallel` returns all 3 dimensions in less time than sequential
+- [x] `fact_check_vote` returns consistent verdicts with confidence score
+- [x] You use `asyncio.gather` correctly
 
 **Output:** `agentlab/parallel.py` → compare with `solutions/fase1/parallel.py`
 
@@ -194,10 +194,10 @@ Reference: AGENTIC.md section 1.5
 ```
 
 **Validation:**
-- [ ] The orchestrator generates a dynamic plan (not hardcoded)
-- [ ] Each worker receives specific instructions from the orchestrator
-- [ ] The final result integrates the work of all workers
-- [ ] You can change the goal and the plan changes
+- [x] The orchestrator generates a dynamic plan (not hardcoded)
+- [x] Each worker receives specific instructions from the orchestrator
+- [x] The final result integrates the work of all workers
+- [x] You can change the goal and the plan changes
 
 **Output:** `agentlab/orchestrator.py` → compare with `solutions/fase1/orchestrator.py`
 
@@ -224,10 +224,10 @@ Reference: AGENTIC.md section 1.6
 ```
 
 **Validation:**
-- [ ] The first generation has a score
-- [ ] If the score is low, the generator refines with specific feedback
-- [ ] The score improves between iterations (not always, but the trend)
-- [ ] The loop ends when it reaches 0.8 or hits 3 iterations
+- [x] The first generation has a score
+- [x] If the score is low, the generator refines with specific feedback
+- [x] The score improves between iterations (not always, but the trend)
+- [x] The loop ends when it reaches 0.8 or hits 3 iterations
 
 **Output:** `agentlab/eval_optimizer.py` → compare with `solutions/fase1/eval_optimizer.py`
 
