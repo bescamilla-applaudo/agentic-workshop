@@ -359,10 +359,10 @@ Reference: AGENTIC.md section 3.2
 ```
 
 **Validation:**
-- [ ] The server starts without errors: `python agentlab/mcp_server.py`
-- [ ] It has at least 2 tools, 1 resource, 1 prompt
-- [ ] `create_note` persists data to disk (survives restart)
-- [ ] `search_notes` searches existing notes
+- [x] The server starts without errors: `python agentlab/mcp_server.py`
+- [x] It has at least 2 tools, 1 resource, 1 prompt
+- [x] `create_note` persists data to disk (survives restart)
+- [x] `search_notes` searches existing notes
 
 **Output:** `agentlab/mcp_server.py` → compare with `solutions/fase3/mcp_server.py`
 
@@ -400,10 +400,10 @@ Reference: AGENTIC.md section 3.2
 ```
 
 **Validation:**
-- [ ] The client detects the server's tools
-- [ ] You can ask the LLM "search my notes about X" and it uses `search_notes`
-- [ ] You can tell it "create a note about Y" and it uses `create_note`
-- [ ] Notes persist between sessions
+- [x] The client detects the server's tools
+- [x] You can ask the LLM "search my notes about X" and it uses `search_notes`
+- [x] You can tell it "create a note about Y" and it uses `create_note`
+- [x] Notes persist between sessions
 
 **Output:** Screenshot or log showing the integration working.
 

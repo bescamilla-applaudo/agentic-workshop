@@ -3,6 +3,11 @@
     "context7": {
       "command": "npx",
       "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "my-notes": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["agentlab/mcp_server.py"]
     }
   }
 }
