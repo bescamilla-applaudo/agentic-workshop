@@ -13,9 +13,9 @@ Check off each exercise as you complete it.
 - [x] 1.6 Evaluator-Optimizer: Refinement loop
 
 ## Phase 2 — Agentic Architectures in LangGraph
-- [ ] 2.1 ReAct Agent: Researcher with tools
-- [ ] 2.2 Reflection Agent: Writer with self-critique
-- [ ] 2.3 PEV Agent: Plan → Execute → Verify
+- [x] 2.1 ReAct Agent: Researcher with tools
+- [x] 2.2 Reflection Agent: Writer with self-critique
+- [x] 2.3 PEV Agent: Plan → Execute → Verify
 
 ## Phase 3 — MCP: Build Your Own Tools
 - [ ] 3.1 MCP Server: Your first tool server

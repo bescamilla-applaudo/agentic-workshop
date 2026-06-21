@@ -259,10 +259,10 @@ Reference: AGENTIC.md section 2.1
 ```
 
 **Validation:**
-- [ ] The agent searches for info, reasons about results, and can search again
-- [ ] It answers questions that require multiple searches
-- [ ] The graph has exactly 2 nodes (agent, tools) + conditional edge
-- [ ] It stops automatically when it has the answer
+- [x] The agent searches for info, reasons about results, and can search again
+- [x] It answers questions that require multiple searches
+- [x] The graph has exactly 2 nodes (agent, tools) + conditional edge
+- [x] It stops automatically when it has the answer
 
 **Output:** `agentlab/react_agent.py` → compare with `solutions/fase2/react_agent.py`
 
@@ -289,10 +289,10 @@ Reference: AGENTIC.md section 2.2
 ```
 
 **Validation:**
-- [ ] The agent generates an initial draft
-- [ ] The reflector gives specific feedback (not generic)
-- [ ] The draft visibly improves between iterations
-- [ ] Ends with "APPROVED" or upon reaching 3 iterations
+- [x] The agent generates an initial draft
+- [x] The reflector gives specific feedback (not generic)
+- [x] The draft visibly improves between iterations
+- [x] Ends with "APPROVED" or upon reaching 3 iterations
 
 **Output:** `agentlab/reflection_agent.py` → compare with `solutions/fase2/reflection_agent.py`
 
@@ -320,10 +320,10 @@ Reference: AGENTIC.md section 2.3
 ```
 
 **Validation:**
-- [ ] The agent generates a plan with 3-5 clear steps
-- [ ] It executes each step sequentially, accumulating context
-- [ ] The verifier evaluates the complete result
-- [ ] If verification fails, it retries steps
+- [x] The agent generates a plan with 3-5 clear steps
+- [x] It executes each step sequentially, accumulating context
+- [x] The verifier evaluates the complete result
+- [x] If verification fails, it retries steps
 
 **Output:** `agentlab/pev_agent.py` → compare with `solutions/fase2/pev_agent.py`
 
