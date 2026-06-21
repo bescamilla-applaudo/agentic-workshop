@@ -18,8 +18,8 @@ Check off each exercise as you complete it.
 - [x] 2.3 PEV Agent: Plan → Execute → Verify
 
 ## Phase 3 — MCP: Build Your Own Tools
-- [ ] 3.1 MCP Server: Your first tool server
-- [ ] 3.2 Connect to a real client
+- [x] 3.1 MCP Server: Your first tool server
+- [x] 3.2 Connect to a real client
 
 ## Phase 4 — Context Engineering
 - [ ] 4.1 Context File: Your project in one file
