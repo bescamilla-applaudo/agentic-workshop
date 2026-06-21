@@ -443,10 +443,10 @@ reading this file.
 ```
 
 **Validation:**
-- [ ] Anyone (or an agent) reading only that file can understand how to contribute to the project
-- [ ] The conventions are specific (not "write good code" but "use AsyncSession, not Session")
-- [ ] The DO NOT section has at least 5 concrete prohibitions
-- [ ] The commands are copy-paste-ready
+- [x] Anyone (or an agent) reading only that file can understand how to contribute to the project
+- [x] The conventions are specific (not "write good code" but "use AsyncSession, not Session")
+- [x] The DO NOT section has at least 5 concrete prohibitions
+- [x] The commands are copy-paste-ready
 
 **Output:** `agentlab/context_example.md` → compare with `solutions/fase4/context_example.md`
 
@@ -474,10 +474,10 @@ when NOT to. Include comments explaining why each description is written that wa
 ```
 
 **Validation:**
-- [ ] Each description says when to use AND when not to use the tool
-- [ ] The input_schemas have descriptions for each field
-- [ ] The dangerous tool has clear warnings in its description
-- [ ] An LLM reading only the definitions understands the context of each one
+- [x] Each description says when to use AND when not to use the tool
+- [x] The input_schemas have descriptions for each field
+- [x] The dangerous tool has clear warnings in its description
+- [x] An LLM reading only the definitions understands the context of each one
 
 **Output:** `agentlab/tool_definitions.py` → compare with `solutions/fase4/tool_definitions.py`
 
@@ -506,10 +506,10 @@ Include a check(action, context) method that decides whether to allow, ask, or d
 ```
 
 **Validation:**
-- [ ] The 3 presets represent real scenarios
-- [ ] The `check()` method works correctly
-- [ ] The production preset doesn't allow anything destructive without approval
-- [ ] The model is extensible (you can add new permissions)
+- [x] The 3 presets represent real scenarios
+- [x] The `check()` method works correctly
+- [x] The production preset doesn't allow anything destructive without approval
+- [x] The model is extensible (you can add new permissions)
 
 **Output:** `agentlab/permissions.py` → compare with `solutions/fase4/permissions.py`
 
