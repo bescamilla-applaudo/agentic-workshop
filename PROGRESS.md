@@ -27,7 +27,7 @@ Check off each exercise as you complete it.
 - [x] 4.3 Permission Models: Autonomy levels
 
 ## Phase 5 — Production Patterns
-- [ ] 5.1 Human-in-the-Loop: The agent that asks permission
-- [ ] 5.2 Dry-Run Harness: Simulate before acting
-- [ ] 5.3 LLM-as-a-Judge: Automated evaluation
-- [ ] 5.4 Production Checklist: Audit your agent
+- [x] 5.1 Human-in-the-Loop: The agent that asks permission
+- [x] 5.2 Dry-Run Harness: Simulate before acting
+- [x] 5.3 LLM-as-a-Judge: Automated evaluation
+- [x] 5.4 Production Checklist: Audit your agent

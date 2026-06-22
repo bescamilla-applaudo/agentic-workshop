@@ -543,10 +543,10 @@ Reference: AGENTIC.md section 9.2
 ```
 
 **Validation:**
-- [ ] The graph pauses before executing destructive actions
-- [ ] You can inspect the plan before approving
-- [ ] `graph.update_state()` with `approved: True` resumes execution
-- [ ] Without approval, the action is not executed
+- [x] The graph pauses before executing destructive actions
+- [x] You can inspect the plan before approving
+- [x] `graph.update_state()` with `approved: True` resumes execution
+- [x] Without approval, the action is not executed
 
 **Output:** `agentlab/hitl_agent.py` → compare with `solutions/fase5/hitl_agent.py`
 
@@ -569,10 +569,10 @@ Reference: AGENTIC.md section 9.3
 ```
 
 **Validation:**
-- [ ] In dry-run mode, no action is actually executed
-- [ ] The summary shows exactly what the agent would do
-- [ ] `approve_and_run()` executes everything that was logged
-- [ ] You can review the log before approving
+- [x] In dry-run mode, no action is actually executed
+- [x] The summary shows exactly what the agent would do
+- [x] `approve_and_run()` executes everything that was logged
+- [x] You can review the log before approving
 
 **Output:** `agentlab/dry_run.py` → compare with `solutions/fase5/dry_run.py`
 
@@ -598,10 +598,10 @@ Reference: AGENTIC.md section 9.5
 ```
 
 **Validation:**
-- [ ] Each criterion has an individual score with reasoning
-- [ ] The pass/fail verdict works with the threshold
-- [ ] You can change criteria to evaluate anything (not just code)
-- [ ] The judge is strict and specific in its feedback
+- [x] Each criterion has an individual score with reasoning
+- [x] The pass/fail verdict works with the threshold
+- [x] You can change criteria to evaluate anything (not just code)
+- [x] The judge is strict and specific in its feedback
 
 **Output:** `agentlab/llm_judge.py` → compare with `solutions/fase5/llm_judge.py`
 
@@ -615,27 +615,27 @@ Reference: AGENTIC.md section 9.5
 
 ```markdown
 ## Security
-- [ ] Tools with minimum permissions (least privilege)
-- [ ] Inputs sanitized before passing to tools
-- [ ] Rate limiting on write tools
-- [ ] Dry-Run for destructive actions
-- [ ] HITL for critical changes
+- [x] Tools with minimum permissions (least privilege)
+- [x] Inputs sanitized before passing to tools
+- [x] Rate limiting on write tools
+- [x] Dry-Run for destructive actions
+- [x] HITL for critical changes
 
 ## Reliability
-- [ ] Timeouts per tool
-- [ ] Retry with exponential backoff
-- [ ] Maximum iterations configured
-- [ ] Persistent state (checkpointing)
+- [x] Timeouts per tool
+- [x] Retry with exponential backoff
+- [x] Maximum iterations configured
+- [x] Persistent state (checkpointing)
 
 ## Observability
-- [ ] Structured logs with correlation IDs
-- [ ] Metrics: latency, error rate, tokens/request
-- [ ] Traceability for each invocation
+- [x] Structured logs with correlation IDs
+- [x] Metrics: latency, error rate, tokens/request
+- [x] Traceability for each invocation
 
 ## Costs
-- [ ] Right model per task (not powerful where cheap suffices)
-- [ ] Budget per session/user
-- [ ] Caching of repeated responses
+- [x] Right model per task (not powerful where cheap suffices)
+- [x] Budget per session/user
+- [x] Caching of repeated responses
 ```
 
 **Ask Copilot:**
@@ -646,9 +646,9 @@ suggest the minimum necessary change. Don't rewrite everything — just patch wh
 ```
 
 **Validation:**
-- [ ] You identified at least 5 gaps in the agent
-- [ ] Each gap has a concrete solution (not "add error handling" but the actual code)
-- [ ] The agent passes more checklist items after the patches
+- [x] You identified at least 5 gaps in the agent
+- [x] Each gap has a concrete solution (not "add error handling" but the actual code)
+- [x] The agent passes more checklist items after the patches
 
 **Output:** A diff of the agent with the patches applied.
 
